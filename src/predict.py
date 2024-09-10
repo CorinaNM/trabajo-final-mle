@@ -1,15 +1,15 @@
-# Código de Scoring - Modelo de Riesgo de Default en un Banco de Corea
+# Código de Scoring - Modelo de Predicción de elegibilidad para préstamos
 ############################################################################
 
 import pandas as pd
-import xgboost as xgb
+from sklearn.linear_model import LogisticRegression
 import pickle
 import os
 
 
 # Cargar la tabla transformada
 def score_model(filename, scores):
-    df = pd.read_csv(os.path.join('../data/processed', filename)).set_index('ID')
+    df = pd.read_csv(os.path.join('../data/processed', filename)).set_index('Loan_ID')
     print(filename, ' cargado correctamente')
     # Leemos el modelo entrenado para usarlo
     package = '../models/best_model.pkl'
@@ -24,7 +24,7 @@ def score_model(filename, scores):
 
 # Scoring desde el inicio
 def main():
-    df = score_model('credit_score.csv','final_score.csv')
+    df = score_model('loan_score.csv','final_score.csv')
     print('Finalizó el Scoring del Modelo')
 
 

@@ -1,16 +1,16 @@
-# Ejecución de Tests Funcionales del Modelo de Crédito
+# Tests Funcionales del Modelo de elegibilidad de préstamo
 
 ### Paso 0: Ingrese al Escritorio remoto
 
 ### Paso 1: Fork del Repositorio Original
 
-En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto original (https://github.com/lcajachahua/model-credit) y dé click al botón "Fork". Esto copiará todo el proyecto en su usuario de Github.
+En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto original (https://github.com/lcajachahua/trabajo-final-mle) y dé click al botón "Fork". Esto copiará todo el proyecto en su usuario de Github.
 
 
 ### Paso 2: Levantar el contenedor de Python
 
 ```
-docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
+docker run -it --rm -p 8888:8888 jupyter/scipy-notebook
 ```
 
 
@@ -27,7 +27,7 @@ git config --global user.email <CORREO>
 ### Paso 4: Clonar el Proyecto desde su propio Github
 
 ```
-git clone https://github.com/<USER>/model-credit.git
+git clone https://github.com/<USER>/trabajo-final-mle.git
 ```
 
 

@@ -1,9 +1,9 @@
-# Credit Project
+# Loan Project
 ==============================
 
-Credit Default Prediction Project
+LOAN ELIGIBLITY PREDICTION PROJECT
 
-To see the data dictionary, you could visit: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
+To see the data dictionary and code, you could visit: https://www.kaggle.com/code/syedali110/loan-eligiblity-prediction
 
 Project Organization
 ------------
