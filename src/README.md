@@ -4,7 +4,7 @@
 
 ### Paso 1: Fork del Repositorio Original
 
-En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto original (https://github.com/lcajachahua/trabajo-final-mle) y dé click al botón "Fork". Esto copiará todo el proyecto en su usuario de Github.
+En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto original (https://github.com/CorinaNM/trabajo-final-mle) y dé click al botón "Fork". Esto copiará todo el proyecto en su usuario de Github.
 
 
 ### Paso 2: Levantar el contenedor de Python
